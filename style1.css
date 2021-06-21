@@ -25,7 +25,7 @@ body {
     height: 100vh;
 }
 
-.instagram-logo {
+.instagram-phone {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,7 +33,7 @@ body {
 }
 
 .instagram-phone img{
-    height: 40rem;
+    height: 50rem;
 }
 
 
@@ -71,10 +71,6 @@ body {
     align-items: center;
     border-radius: 50%;
     overflow: hidden;
-    max-height: 150px;
-    max-width: 150px;
-    height: auto;
-    width: auto;
 }
 
 .profile-photo img{
@@ -125,11 +121,11 @@ body {
 }
 
 .app-download:nth-child(1) {
-    background-image: url("./applestore.png");
+    background-image: url("./apple-button.png");
 }
 
 .app-download:nth-child(2) {
-    background-image: url("./playstore.png");
+    background-image: url("./googleplay-button.png");
 }
 
 /* media queries */ 
